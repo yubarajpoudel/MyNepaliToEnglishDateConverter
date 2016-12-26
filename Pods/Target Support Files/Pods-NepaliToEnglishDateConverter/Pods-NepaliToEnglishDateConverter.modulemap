@@ -1,0 +1,6 @@
+framework module Pods_NepaliToEnglishDateConverter {
+  umbrella header "Pods-NepaliToEnglishDateConverter-umbrella.h"
+
+  export *
+  module * { export * }
+}

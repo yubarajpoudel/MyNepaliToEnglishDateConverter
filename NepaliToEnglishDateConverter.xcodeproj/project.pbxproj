@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		325CF449B04273FDEE1B0586 /* Pods_NepaliToEnglishDateConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1D253CD5B630E68CC24DF /* Pods_NepaliToEnglishDateConverter.framework */; };
+		F61B5FEC1E113C2700ECC1AC /* NepaliToEnglishDateConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = F61B5FEB1E113C2700ECC1AC /* NepaliToEnglishDateConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61B5FF41E113EBF00ECC1AC /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B5FF31E113EBF00ECC1AC /* DateHolder.swift */; };
+		F61B5FF61E113EC700ECC1AC /* DateConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B5FF51E113EC700ECC1AC /* DateConstant.swift */; };
+		F61B5FF81E113ED300ECC1AC /* DateConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B5FF71E113ED300ECC1AC /* DateConverter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E66DB8D0474260FACDA4C60 /* Pods-NepaliToEnglishDateConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NepaliToEnglishDateConverter.release.xcconfig"; path = "Pods/Target Support Files/Pods-NepaliToEnglishDateConverter/Pods-NepaliToEnglishDateConverter.release.xcconfig"; sourceTree = "<group>"; };
+		66CB7A2EC83DD58A0D1E1132 /* Pods-NepaliToEnglishDateConverter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NepaliToEnglishDateConverter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NepaliToEnglishDateConverter/Pods-NepaliToEnglishDateConverter.debug.xcconfig"; sourceTree = "<group>"; };
+		A1F1D253CD5B630E68CC24DF /* Pods_NepaliToEnglishDateConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NepaliToEnglishDateConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61B5FE81E113C2700ECC1AC /* NepaliToEnglishDateConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NepaliToEnglishDateConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61B5FEB1E113C2700ECC1AC /* NepaliToEnglishDateConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NepaliToEnglishDateConverter.h; sourceTree = "<group>"; };
+		F61B5FED1E113C2700ECC1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61B5FF31E113EBF00ECC1AC /* DateHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
+		F61B5FF51E113EC700ECC1AC /* DateConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateConstant.swift; sourceTree = "<group>"; };
+		F61B5FF71E113ED300ECC1AC /* DateConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateConverter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F61B5FE41E113C2700ECC1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325CF449B04273FDEE1B0586 /* Pods_NepaliToEnglishDateConverter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D5DDD4F217081771FA44C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66CB7A2EC83DD58A0D1E1132 /* Pods-NepaliToEnglishDateConverter.debug.xcconfig */,
+				0E66DB8D0474260FACDA4C60 /* Pods-NepaliToEnglishDateConverter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F026B9624A01F615EB7EBC2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1F1D253CD5B630E68CC24DF /* Pods_NepaliToEnglishDateConverter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F61B5FDE1E113C2600ECC1AC = {
+			isa = PBXGroup;
+			children = (
+				F61B5FEA1E113C2700ECC1AC /* NepaliToEnglishDateConverter */,
+				F61B5FE91E113C2700ECC1AC /* Products */,
+				19D5DDD4F217081771FA44C2 /* Pods */,
+				F026B9624A01F615EB7EBC2A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F61B5FE91E113C2700ECC1AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F61B5FE81E113C2700ECC1AC /* NepaliToEnglishDateConverter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F61B5FEA1E113C2700ECC1AC /* NepaliToEnglishDateConverter */ = {
+			isa = PBXGroup;
+			children = (
+				F61B5FF91E113EDB00ECC1AC /* converter */,
+				F61B5FEB1E113C2700ECC1AC /* NepaliToEnglishDateConverter.h */,
+				F61B5FED1E113C2700ECC1AC /* Info.plist */,
+			);
+			path = NepaliToEnglishDateConverter;
+			sourceTree = "<group>";
+		};
+		F61B5FF91E113EDB00ECC1AC /* converter */ = {
+			isa = PBXGroup;
+			children = (
+				F61B5FF31E113EBF00ECC1AC /* DateHolder.swift */,
+				F61B5FF51E113EC700ECC1AC /* DateConstant.swift */,
+				F61B5FF71E113ED300ECC1AC /* DateConverter.swift */,
+			);
+			name = converter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F61B5FE51E113C2700ECC1AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61B5FEC1E113C2700ECC1AC /* NepaliToEnglishDateConverter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F61B5FE71E113C2700ECC1AC /* NepaliToEnglishDateConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61B5FF01E113C2700ECC1AC /* Build configuration list for PBXNativeTarget "NepaliToEnglishDateConverter" */;
+			buildPhases = (
+				3B1FC0B1D3243343561DC5B2 /* [CP] Check Pods Manifest.lock */,
+				F61B5FE31E113C2700ECC1AC /* Sources */,
+				F61B5FE41E113C2700ECC1AC /* Frameworks */,
+				F61B5FE51E113C2700ECC1AC /* Headers */,
+				F61B5FE61E113C2700ECC1AC /* Resources */,
+				5293D04E48937BFC15E72046 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NepaliToEnglishDateConverter;
+			productName = NepaliToEnglishDateConverter;
+			productReference = F61B5FE81E113C2700ECC1AC /* NepaliToEnglishDateConverter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F61B5FDF1E113C2600ECC1AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mantra Ideas";
+				TargetAttributes = {
+					F61B5FE71E113C2700ECC1AC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F61B5FE21E113C2600ECC1AC /* Build configuration list for PBXProject "NepaliToEnglishDateConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F61B5FDE1E113C2600ECC1AC;
+			productRefGroup = F61B5FE91E113C2700ECC1AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F61B5FE71E113C2700ECC1AC /* NepaliToEnglishDateConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F61B5FE61E113C2700ECC1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B1FC0B1D3243343561DC5B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5293D04E48937BFC15E72046 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NepaliToEnglishDateConverter/Pods-NepaliToEnglishDateConverter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F61B5FE31E113C2700ECC1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61B5FF41E113EBF00ECC1AC /* DateHolder.swift in Sources */,
+				F61B5FF61E113EC700ECC1AC /* DateConstant.swift in Sources */,
+				F61B5FF81E113ED300ECC1AC /* DateConverter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F61B5FEE1E113C2700ECC1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F61B5FEF1E113C2700ECC1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F61B5FF11E113C2700ECC1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66CB7A2EC83DD58A0D1E1132 /* Pods-NepaliToEnglishDateConverter.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NepaliToEnglishDateConverter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mantraideas.NepaliToEnglishDateConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F61B5FF21E113C2700ECC1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E66DB8D0474260FACDA4C60 /* Pods-NepaliToEnglishDateConverter.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NepaliToEnglishDateConverter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mantraideas.NepaliToEnglishDateConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F61B5FE21E113C2600ECC1AC /* Build configuration list for PBXProject "NepaliToEnglishDateConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61B5FEE1E113C2700ECC1AC /* Debug */,
+				F61B5FEF1E113C2700ECC1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F61B5FF01E113C2700ECC1AC /* Build configuration list for PBXNativeTarget "NepaliToEnglishDateConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61B5FF11E113C2700ECC1AC /* Debug */,
+				F61B5FF21E113C2700ECC1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F61B5FDF1E113C2600ECC1AC /* Project object */;
+}
