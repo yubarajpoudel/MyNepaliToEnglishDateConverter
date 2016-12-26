@@ -316,20 +316,20 @@ func convertBSToAD(nepaliDate : String, splitter : String) -> DateHolder {
         } else {
             endDayOfMonth = daysInMonth[engMonth]
         }
-        engDay++
-        dayOfWeek++
+        engDay = engDay + 1
+        dayOfWeek = dayOfWeek + 1
         if (engDay > endDayOfMonth) {
-            engMonth++
+            engMonth = engMonth + 1
             engDay = 1
             if (engMonth > 12) {
-                engYear++
+                engYear = engYear + 1
                 engMonth = 1
             }
         }
         if (dayOfWeek > 7) {
             dayOfWeek = 1
         }
-        totalNepDaysCount--
+        totalNepDaysCount = totalNepDaysCount - 1
     }
     
     print("DateConverter :: engYear = \(engYear)")
