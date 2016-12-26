@@ -45,5 +45,5 @@ s.framework = "UIKit"
 s.source_files = "NepaliToEnglishDateConverter/**/*.{swift}"
 
 # 9
-s.resources = "NepaliToEnglishDateConverter/**/*.{png,jpeg,jpg,storyboard,xib}"
+#s.resources = "NepaliToEnglishDateConverter/**/*.{png,jpeg,jpg,storyboard,xib}"
 end

@@ -121,7 +121,7 @@ public class DateConverter {
      let startingEngYear = 2013
      let startingEngMonth = 12
      let startingEngDay = 1
-     var dayOfWeek = 0 as! Int //Calendar.SUNDAY // 1944/1/1 is Saturday
+     var dayOfWeek = 0  //Calendar.SUNDAY // 1944/1/1 is Saturday
      let startingNepYear = 2070
      let startingNepMonth = 8
      let startingNepDay = 16
@@ -140,9 +140,8 @@ public class DateConverter {
         let baseEngDate = calendar.dateFromComponents(baseEngDateComponents)
         
         let components = calendar.components([.Day], fromDate: baseEngDate!, toDate: CurrentEngDate!, options: [])
-        var totalEngDaysCount = components.day as! Int
-     
-    
+        var totalEngDaysCount = components.day
+        
      var nepYear = startingNepYear
      var nepMonth = startingNepMonth
      var nepDay = startingNepDay
@@ -151,7 +150,7 @@ public class DateConverter {
      var done = false;
      while (totalEngDaysCount != 0) {
     
-     var daysInMonth = nepaliMap.objectForKey(nepYear)![nepMonth] as! Int
+     let daysInMonth = nepaliMap.objectForKey(nepYear)![nepMonth] as! Int
      nepDay = nepDay + 1 // incrementing nepali day
         
     if (nepDay > daysInMonth) {

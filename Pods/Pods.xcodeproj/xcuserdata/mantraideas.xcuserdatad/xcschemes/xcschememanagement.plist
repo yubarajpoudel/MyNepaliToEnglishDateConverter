@@ -4,16 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Alamofire.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>MBProgressHUD.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-NepaliToEnglishDateConverter.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6B1714E816AE794962516E2ECBB40A5A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7D5388CADD9EC74B19D0264823ADBCBA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DD0B989480C32EBDB31398153A7FC79F</key>
+		<key>D7547237100654453409976BAAD00F94</key>
 		<dict>
 			<key>primary</key>
 			<true/>
